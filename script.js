@@ -112,22 +112,24 @@ books.forEach(book => {
 
 // ============================================== FASE 2: TEMPLATE STRING ==============================================
 
-// Comentado para que no se cargue el código anterior:
 
-// let library2 = "";
+let library2 = "";
 
-// for (let i = 0; i < books.length; i++) {
-//   let book = books[i];
+for (let i = 0; i < books.length; i++) {
+  let book = books[i];
   
-//   library2 += `
-//   <div class="book">
-//     <h2>${book.title}</h2>
-//     <p class="author">${book.author}</p>
-//     <p class="country">${book.country}</p>
-//     <img class="imageLink" src="${book.imageLink}" alt="${book.title}"/>
-//     <a href="${book.link}" class="link">Más información</a>
-//     <p class="pages">${book.pages} páginas</p>
-//     <p class="year">Año: ${book.year}</p>
-//   </div>
-//   `;
-// };
+  library2 += `
+  <div class="book">
+    <h2>${book.title}</h2>
+    <img class="imageLink" src="${book.imageLink}" alt="${book.title}"/>
+    <p class="author">${book.author}</p>
+    <p class="country">${book.country}</p>
+    <p class="language">${book.language}</p>
+    <p class="pages">${book.pages}</p>
+    <p class="year">${book.year}</p>
+    <a href="${book.link}" class="link"></a>
+  </div>
+  `;
+};
+
+document.getElementById("library2").innerHTML = library2;
