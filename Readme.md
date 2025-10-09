@@ -36,4 +36,6 @@ ${person.name}
 <p class="location">${person.city}</p>
 <p class="bio">${person.bio}</p>
 </div>
-`;
+`;# ejercicio-minibiblioteca-js-dom
+# ejercicio-minibiblioteca-js-dom
+# ejercicio-minibiblioteca-js-dom
