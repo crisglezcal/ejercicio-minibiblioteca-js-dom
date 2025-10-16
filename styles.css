@@ -84,7 +84,6 @@ header {
     background-color: var(--gunmetal);
     font-size: 19px;
     text-align: center;
-    font-weight: var(--font-bold);
     border-bottom: 5px double var(--gunmetal-2);
     color: var(--sage);
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);

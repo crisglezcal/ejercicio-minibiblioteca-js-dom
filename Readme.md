@@ -1,41 +1,66 @@
-Ejercicio con arrays, objetos, manejo del DOM
+# 📚 EJERCICIO - Minibiblioteca JS DOM
 
-Dado el siguiente array de objetos, pintar en el DOM tarjetas con los detalles de los siguientes libros. 
-- Maquetación HTML + CSS. Respetar semántica HTML5
-- Mobile first. Usar Flexbox para las tarjetas y media queries. 
+## 📋 Descripción del proyecto
+
+Este proyecto es una landing page de una minibiblioteca desarrollada como ejercicio del bootcamp de Full Stack Web Developer. La aplicación muestra una colección de libros utilizando dos métodos diferentes de manipulación del DOM con JavaScript.
+
+### 🎯 Objetivos
+
+**🧾 Enunciado del ejercicio**
+
+Dado un array de objetos, pintar en el DOM tarjetas con los detalles de los libros. 
+- Maquetación HTML + CSS
+- Mobile first, uso de flexbox y media queries
 - Subir a GitHub el proyecto
-- Podéis implementar las dos fases en el mismo proyecto
 
-Para generar las tarjetas (Hay que hacerlo de las 2 formas):
-Fase 1
-Utilizar métodos de manejo del DOM
-    - innerHTML
-    - appendChild()
-    - createElement()
-    - createAttribute()
-    - createTextNode()
-Fase 2
-Utilizar template string
-https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Template_literals
-https://www.w3schools.com/js/js_string_templates.asp
+**Fase 1: Utilizar métodos de manejo del DOM**
+- ✅ innerHTML
+- ✅ appendChild()
+- ✅ createElement()
+- ✅ createAttribute()
+- ✅ createTextNode()
 
-Ejemplo template string: 
-https://wesbos.com/template-strings-html
-const person = {
-name: 'Wes',
-job: 'Web Developer',
-city: 'Hamilton',
-bio: 'Wes is a really cool guy that loves to teach web development!'
-}
-// And then create our markup:
-const markup = `
-<div class="person">
-<h2>
-${person.name}
-</h2>
-<p class="location">${person.city}</p>
-<p class="bio">${person.bio}</p>
-</div>
-`;# ejercicio-minibiblioteca-js-dom
-# ejercicio-minibiblioteca-js-dom
-# ejercicio-minibiblioteca-js-dom
+**Fase 2: Template strings**
+- ✅ Utilizar Template string para manipular desde JS el HTML
+
+**Fase 3: Maquetación con CSS**
+- ✅ Mobile first, uso de flexbox y media queries
+
+
+## 🛠️ Tecnologías usadas
+
+- **HTML5** 📝
+- **CSS3** 🖌️
+- **JavaScript** 💻
+
+---
+
+## 🗂️ Estructura del proyecto
+
+### 🎪 Header
+- Título principal "Minibiblioteca JS DOM"
+
+### 📖 Sección principal
+- **Contenedor 1**: Biblioteca generada con JS con métodos del DOM 
+- **Contenedor 2**: Biblioteca generada con JS con template strings
+
+### 📚 Información mostrada por libro
+- **Título** 📖
+- **Imagen** 🖼️
+- **Autor** ✍️
+- **País** 🌍
+- **Idioma** 🗣️
+- **Número de páginas** 📄
+- **Año de publicación** 📅
+- **Enlace** 🔗
+
+### 👟 Footer
+- Información del proyecto
+
+---
+
+## ➡️ Siguientes pasos
+
+- **Añadir funcionalidades** ⚙️
+
+
